@@ -9,6 +9,10 @@ const ContainerModal = styled.section`
 `;
 
 const ModalStyles = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background: ${(props) => props.backgroundModal || 'white'};
   width: ${(props) => props.width || '500px'};
   height: ${(props) => props.height || '300px'};
