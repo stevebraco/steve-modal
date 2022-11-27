@@ -21,7 +21,7 @@ function App() {
         fugiat atque explicabo nisi llia odit nemo similique? Minus impedit ipsa
         quia quaerat eveniet maxime similique faceremnis? Dolorum, sit deleniti.
       </p>
-      <Modal isOpen={modalIsOpen} onRequestClose={closeModal}>
+      <Modal backgroundModal='red' background='black' width='1000px' height='100px' isOpen={modalIsOpen} onRequestClose={closeModal}>
         <p>I am a modal</p>
         <button onClick={closeModal}>close modal</button>
       </Modal>
