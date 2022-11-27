@@ -18,7 +18,7 @@ function App() {
       <button onClick={openModal}>click</button>
       <p>
         Lorem ipsum dolor sit, amet consctetur adipisicing elit. Reprehenderit
-        fugiat atque explicabo nisi llia odit nemo similique? Minus impedit ipsa
+        fugiat atque explicabo nii llia odit nemo similique? Minus impedit ipsa
         quia quaerat eveniet maxime similique faceremnis? Dolorum, sit deleniti.
       </p>
       <Modal backgroundModal='red' background='black' width='1000px' height='100px' isOpen={modalIsOpen} onRequestClose={closeModal}>
